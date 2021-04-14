@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    width: 2056px;
+    height: 5264px;
+    left: 0px;
+    top: 0px;
+
+    background-color: #FFFFFF;
+}
+
+h3{
+    position: absolute;
+    box-sizing: border-box;
+    width: 2056px;
+    height:61px;
+    background-color: #1CD1B0;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size:48px;
+    color: black;
+    padding-top: 4px;
+    padding-left: 67px;
+    padding-bottom: 1px;
+}
+
+h1{
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.25);
+    width: 2056px;
+    height:162px;
+    background-color: #00669F;
+    margin-left: 0px;
+    margin-top: 60px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size:72px;
+    color: white;
+    padding-top: 39px;
+    padding-left: 67px;
+    padding-bottom: 39px;
+}
+/* -----------------------------------------------*/
+.Tarjeta{
+    position:relative;
+}
+.fondo{
+    position: relative;
+    width: 806px;
+    height: 555px;
+    margin-left: 625px;
+    border-radius: 67px;
+    background-size: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.perfil{
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    margin-left: 852px;
+    margin-top: -251.5px;
+    z-index: 10;
+    border-radius: 50%;
+
+}
+h2{
+    font-family: "Roboto";
+    font-size: 64px;
+    margin: 0;
+    color: black;
+    border-radius: nullpx;
+    text-transform: uppercase;
+    padding-top: 194px;
+    line-height: 75px;
+    text-align: center;
+    font-weight: 400;
+}
+p{
+    position: relative;
+    font-family: "Roboto";
+    color: #333333;
+    font-weight: 400;
+    font-size:36px;
+    padding-left: 43px;
+    padding-right:44px;
+    margin-top: 32px;
+    font-size: 36px;
+}
+button{
+    position: relative;
+    font-family: "Roboto";
+    background: #00669F;
+    border-radius: 7px;
+    width: 346px;
+    height: 114px;
+    padding-top: 36px 106px 36px 107px;
+    margin-left: 229px;
+    margin-bottom: 68px;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 36px;
+}
+.corazon{
+    position: absolute;
+    color: #CC2424;
+    margin-top: 44.19px;
+    margin-left: 57px;
+    font-size: 67px;
+    z-index:80;
+
+}
+.botonSuma{
+    position: sticky;
+    bottom: 150px;
+    background-color: #00669F;
+    z-index: 80;
+    width: 150px;
+    height:150px;
+    margin-left: 1800px;
+    margin-top: 800.5px;
+    border-radius: 50%;
+
+}
+.botonSuma p{
+    font-family: "Roboto";
+    font-weight: 400px;
+    font-size:96px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px;
+    padding-top: 19px;
+
+}
+/*---------------------------------*/
+
+.fondoBatman{
+    margin-top: 269px;
+    background-image: url(../img/bg-batman.jpg);    
+}
+.CajaGrisBatman{
+    background-color: #F3F3F3;
+    position: absolute;
+    width: 805px;
+    height:872px;
+    margin-left: 626px;
+    margin-top: -62px;
+
+}
+.perfilBatman{
+    background-image: url(../img/batman.jpg);
+    background-size: 300%;
+    background-position: 58% top;
+}
+.tituloBatman{
+    padding-right: 261px;
+    padding-left: 260px;
+}
+.fondoWW {
+    margin-top: 1072.5px;
+    background-image: url(../img/bg-wonderw.jpg)
+}
+.tituloWW{
+    padding-left: 81px;
+    padding-right:81px;
+}
+.perfilWW{
+    background-image: url(../img/wonderw.jpg);
+    background-size: 205%;
+    background-position-y: 0%;
+    background-position-x: 50%
+}
+.CajaGrisWW{
+    background-color: #F3F3F3;
+    position: absolute;
+    width: 805px;
+    height:872px;
+    margin-left: 626px;
+    margin-top: -62.5px;
+}
+.fondoSM{
+    margin-top: 1072.5px;
+    background-image: url(../img/bg-superman.jpg)
+}
+.CajaGrisSM{
+    background-color: #F3F3F3;
+    position: absolute;
+    width: 805px;
+    height:872px;
+    margin-left: 626px;
+    margin-top: -62.5px;
+}
+
+.perfilSM{
+    background-image: url(../img/superman.jpg);
+    background-size: 205%;
+    background-position-y: 0%;
+    background-position-x: 50%
+}
+.tituloSM{
+    padding-left: 212px;
+    padding-right:206px;
+}
+/*--------------------------------*/
+.Caja_Footer{
+    position: relative;
+    margin-top: 50px;
+    background-color: #00669F;
+    width:2056px;
+    height:162px;
+    
+    
+}
+.Caja_Footer p{
+    margin: 0;
+    font-family: "Roboto";
+    color: #FFF9F9;
+    font-weight: 400;
+    font-size:36px;
+    padding-top: 60px;
+    text-align: center;
+}
+.Caja_Footer img{
+    position:absolute;
+    padding-top: 47px;
+    padding-left: 1730px;
+    padding-right: 77.89px
+}
