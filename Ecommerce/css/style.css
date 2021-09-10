@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+}
+
+body{
+    position:relative;
+    height:100%;
+}
+
+
+h3 {
+    padding-left: 15px;
+    background-color: #1CD1B0;
+    font-weight: 400;
+    font-size:15px;
+}
+
+header div{
+    background-color: #00669F;
+    height: 80px;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+header div img{
+    height: 50px;
+}
+header div h1{
+    margin-left: 15px;
+    height: 35px;
+    font-weight: 400;
+    font-size:30px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
+header nav{
+    background-color: #001D2D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+header nav a{
+    color: #FFFFFF;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    height: 100%x;
+    padding-left: 210px;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main section{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 100px;
+    height:527px;
+    width: 300px;
+   
+    
+
+}
+/*---------------------------*/
+.fondo{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-size: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.perfil{
+    width: 120px;
+    height: 118px;
+    z-index: 10;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:128px;
+    margin-left: 90px;
+}
+
+.CajaGris{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 336px;
+}
+/*----------------------------*/
+.fondoBatman{
+    width: 100%;
+    height: 192px;
+    background-image: url(../img/bg-batman.jpg);    
+}
+.perfilBatman{
+    background-image: url(../img/batman.jpg);
+    background-size: 300%;
+    background-position: 58% top;
+}
+
+/*--------------*/
+.fondoSM{
+    width: 100%;
+    height: 192px;
+    background-image: url(../img/bg-superman.jpg)
+
+}
+.perfilSM{
+    background-image: url(../img/superman.jpg);
+    background-size: 205%;
+    background-position-y: 0%;
+    background-position-x: 50%
+
+}
+/*---------------------------*/
+.fondoWW{
+    width: 100%;
+    height: 185px;
+    background-image: url(../img/bg-wonderw.jpg)
+}
+.perfilWW{
+    background-image: url(../img/wonderw.jpg);
+    background-size: 205%;
+    background-position-y: 0%;
+    background-position-x: 50%
+}
+/*---------------------------*/
+
+main section button{
+    position:relative;
+    margin-left: 85px;
+    font-family: "Roboto";
+    background: #00669F;
+    border-radius: 7px;
+    padding: 15px 35px 15px 37px;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor:pointer;
+    border: 0;
+    
+    
+}
+
+main section div h2{
+    font-family: "Roboto";
+    font-size: 30px;
+    margin: 0;
+    color: black;
+    border-radius: nullpx;
+    text-transform: uppercase;
+    margin-top: 74px;
+    text-align: center;
+    font-weight: 400;
+}
+
+main section div p{
+    font-family: "Roboto";
+    margin-top: 10px;
+    color: #333333;
+    font-weight: 400;
+    font-size:16px;
+    padding-left: 16px;
+    padding-right:17px;
+    
+}
+
+/*FOOTER*/
+footer{
+    position:absolute;
+    margin-top: 70px;;
+    display:flex;
+    width: 100%;
+    height:61px;
+    background-color: #00669F;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}

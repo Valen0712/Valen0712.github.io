@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+}
+
+body{
+    position:relative;
+    height:100%;
+    width: 100%;
+}
+
+
+h3 {
+    padding-left: 15px;
+    background-color: #1CD1B0;
+    font-weight: 400;
+    font-size:15px;
+}
+
+header div{
+    background-color: #00669F;
+    height: 80px;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+header div img{
+    height: 50px;
+}
+header div h1{
+    margin-left: 15px;
+    height: 35px;
+    font-weight: 400;
+    font-size:30px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*MAIN*/
+main{
+    background-image: url(../img/bg-harley.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section{
+    display:flex;
+    justify-content: center;
+    margin-top:117px;
+    margin-bottom: 116px;;
+    width: 50%;
+    height:50%;  
+    
+}
+main section article{
+    justify-content: center;
+    background-color: #F3F3F3;
+}
+main section article div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfilHH{
+    width: 159px;
+    height: 159px;
+    z-index: 10;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    background-image: url(../img/perfil-harley.jpg);
+
+    margin-top: -98px;
+
+}
+
+.Caja{
+    width:100%;
+    height:100%;
+
+}
+
+.CajaBlanca h2{
+    color: #2C0187;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-top: 71px;
+   
+
+}
+.CajaBlanca p{
+    padding: 10px 23px 0px 23px;
+}
+.uno{
+    color:#3d1d81;
+}
+.dos{
+    font-style: italic;
+    color:#3d1d81;
+
+}
+.CajaPurple{
+    background-color: #2C0187;
+}
+
+/*FOOTER*/
+footer{
+    position:absolute;
+    display:flex;
+    width: 100%;
+    height:61px;
+    background-color: #00669F;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
